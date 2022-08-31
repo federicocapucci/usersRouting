@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.btn-xl{
+    background-color: #F05F44;    
+    border-color: #F05F44;    
+    font-size: 1.5rem;
+    border-radius: 50px;
+    padding: 0.8rem 1.8rem;
+    transition: all 0.2s ease-out;    
+    position: relative;
+    top: 0;
+    left:50%;
+    transform: translate(-50%,0%);
+}
+
+
+
+.btn-xl:hover{
+    background-color: #EE4B08;
+    border-color:#EE4B08;
+    padding: 0.8rem 2.8rem;    
+    transition: all 0.2s ease-out;
+}

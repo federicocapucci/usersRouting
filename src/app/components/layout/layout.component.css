@@ -1,0 +1,23 @@
+p{
+    font-size: 3rem;
+    color: #ffffffc7;
+}
+
+hr{
+    border-color: #F05F44;
+    opacity: 0.9;
+    border-width: 10px;
+    max-width: 80px;
+    border-radius: 10px;
+    margin: -5px auto 20px auto; 
+}
+
+
+
+.layout{
+    height: 100vh;
+    object-fit: cover;    
+    background-image: url('../../../assets/img/backgroundImage.jpg');
+    background-size: cover;
+    
+}

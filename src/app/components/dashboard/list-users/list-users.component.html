@@ -1,0 +1,11 @@
+<div class="row d-flex justify-content-center" *ngIf="isLoading">
+    <div class="spinner-border text-warning">
+    </div>
+</div>
+
+
+<div class="row mx-auto">
+    <div class="col-lg-3" style="margin: 30px;" *ngFor="let user of userList">
+        <app-card-user *ngIf="user" [user]="user"></app-card-user>
+    </div>
+</div>
